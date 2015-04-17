@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class FeThirdLayerAttribute;
+
 @interface FeThirdLayerMenuLayout : UICollectionViewFlowLayout
+
+-(instancetype) initWithThirdLayerAttribute:(FeThirdLayerAttribute *) layerAttribute;
 
 @end

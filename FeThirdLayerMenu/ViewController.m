@@ -7,16 +7,26 @@
 //
 
 #import "ViewController.h"
+#import "FeThirdLayerHeaderFile.h"
 
-@interface ViewController ()
+@interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
+
+// Collection View
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self initCommon];
+    
+    [self initCollectionView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +34,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Init
+-(void) initCommon
+{
+    
+}
+-(void) initCollectionView
+{
+    _collectionView.dataSource = self;
+    _collectionView.delegate = self;
+    
+    // Setup layout
+    
+}
 @end

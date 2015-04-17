@@ -14,11 +14,14 @@
 		BA7E65311AE0B44E004495A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA7E65301AE0B44E004495A4 /* Images.xcassets */; };
 		BA7E65341AE0B44E004495A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA7E65321AE0B44E004495A4 /* LaunchScreen.xib */; };
 		BA7E65401AE0B44E004495A4 /* FeThirdLayerMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7E653F1AE0B44E004495A4 /* FeThirdLayerMenuTests.m */; };
-		BA7E65501AE0C1BD004495A4 /* FeThirdLayerAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7E654F1AE0C1BD004495A4 /* FeThirdLayerAttribute.m */; };
+		BA7E65501AE0C1BD004495A4 /* FeThirdLayerSubviewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7E654F1AE0C1BD004495A4 /* FeThirdLayerSubviewAttribute.m */; };
 		BA7E65531AE0C1D9004495A4 /* FeThirdLayerHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7E65521AE0C1D9004495A4 /* FeThirdLayerHeader.m */; };
 		BA7E65561AE0C1EE004495A4 /* UIView+FeThirdLayerAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7E65551AE0C1EE004495A4 /* UIView+FeThirdLayerAttribute.m */; };
 		BA7E65591AE0C210004495A4 /* FeThirdLayerMenuLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7E65581AE0C210004495A4 /* FeThirdLayerMenuLayout.m */; };
 		BA7E655D1AE0C2F1004495A4 /* FeThirdLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7E655C1AE0C2F1004495A4 /* FeThirdLayerLabel.m */; };
+		BA7E65661AE0C5ED004495A4 /* FeThirdLayerAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7E65651AE0C5ED004495A4 /* FeThirdLayerAttribute.m */; };
+		BA7E65681AE0C638004495A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7E65671AE0C638004495A4 /* QuartzCore.framework */; };
+		BA7E656A1AE0C66A004495A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7E65691AE0C66A004495A4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +48,8 @@
 		BA7E65391AE0B44E004495A4 /* FeThirdLayerMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeThirdLayerMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7E653E1AE0B44E004495A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA7E653F1AE0B44E004495A4 /* FeThirdLayerMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeThirdLayerMenuTests.m; sourceTree = "<group>"; };
-		BA7E654E1AE0C1BD004495A4 /* FeThirdLayerAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeThirdLayerAttribute.h; sourceTree = "<group>"; };
-		BA7E654F1AE0C1BD004495A4 /* FeThirdLayerAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeThirdLayerAttribute.m; sourceTree = "<group>"; };
+		BA7E654E1AE0C1BD004495A4 /* FeThirdLayerSubviewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeThirdLayerSubviewAttribute.h; sourceTree = "<group>"; };
+		BA7E654F1AE0C1BD004495A4 /* FeThirdLayerSubviewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeThirdLayerSubviewAttribute.m; sourceTree = "<group>"; };
 		BA7E65511AE0C1D9004495A4 /* FeThirdLayerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeThirdLayerHeader.h; sourceTree = "<group>"; };
 		BA7E65521AE0C1D9004495A4 /* FeThirdLayerHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeThirdLayerHeader.m; sourceTree = "<group>"; };
 		BA7E65541AE0C1EE004495A4 /* UIView+FeThirdLayerAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FeThirdLayerAttribute.h"; sourceTree = "<group>"; };
@@ -55,6 +58,12 @@
 		BA7E65581AE0C210004495A4 /* FeThirdLayerMenuLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeThirdLayerMenuLayout.m; sourceTree = "<group>"; };
 		BA7E655B1AE0C2F1004495A4 /* FeThirdLayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeThirdLayerLabel.h; sourceTree = "<group>"; };
 		BA7E655C1AE0C2F1004495A4 /* FeThirdLayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeThirdLayerLabel.m; sourceTree = "<group>"; };
+		BA7E655F1AE0C3E9004495A4 /* FeThirdLayerHeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeThirdLayerHeaderFile.h; sourceTree = "<group>"; };
+		BA7E65641AE0C5ED004495A4 /* FeThirdLayerAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeThirdLayerAttribute.h; sourceTree = "<group>"; };
+		BA7E65651AE0C5ED004495A4 /* FeThirdLayerAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeThirdLayerAttribute.m; sourceTree = "<group>"; };
+		BA7E65671AE0C638004495A4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BA7E65691AE0C66A004495A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA7E656B1AE0C6B5004495A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7E656A1AE0C66A004495A4 /* Foundation.framework in Frameworks */,
+				BA7E65681AE0C638004495A4 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,8 @@
 		BA7E65171AE0B44E004495A4 = {
 			isa = PBXGroup;
 			children = (
+				BA7E65691AE0C66A004495A4 /* Foundation.framework */,
+				BA7E65671AE0C638004495A4 /* QuartzCore.framework */,
 				BA7E65221AE0B44E004495A4 /* FeThirdLayerMenu */,
 				BA7E653C1AE0B44E004495A4 /* FeThirdLayerMenuTests */,
 				BA7E65211AE0B44E004495A4 /* Products */,
@@ -105,6 +118,7 @@
 				BA7E65301AE0B44E004495A4 /* Images.xcassets */,
 				BA7E65321AE0B44E004495A4 /* LaunchScreen.xib */,
 				BA7E65231AE0B44E004495A4 /* Supporting Files */,
+				BA7E656B1AE0C6B5004495A4 /* PrefixHeader.pch */,
 			);
 			path = FeThirdLayerMenu;
 			sourceTree = "<group>";
@@ -138,22 +152,23 @@
 		BA7E65491AE0B56A004495A4 /* FeThirdLayerMenu */ = {
 			isa = PBXGroup;
 			children = (
+				BA7E655E1AE0C3D2004495A4 /* Header file */,
 				BA7E655A1AE0C2BF004495A4 /* ThirdLayerLabel */,
 				BA7E654D1AE0C195004495A4 /* Attribute */,
 				BA7E654C1AE0C13C004495A4 /* Categories */,
 				BA7E654B1AE0C135004495A4 /* Layout */,
-				BA7E654A1AE0C12C004495A4 /* Header */,
+				BA7E654A1AE0C12C004495A4 /* Header Collecttion View */,
 			);
 			name = FeThirdLayerMenu;
 			sourceTree = "<group>";
 		};
-		BA7E654A1AE0C12C004495A4 /* Header */ = {
+		BA7E654A1AE0C12C004495A4 /* Header Collecttion View */ = {
 			isa = PBXGroup;
 			children = (
 				BA7E65511AE0C1D9004495A4 /* FeThirdLayerHeader.h */,
 				BA7E65521AE0C1D9004495A4 /* FeThirdLayerHeader.m */,
 			);
-			name = Header;
+			name = "Header Collecttion View";
 			sourceTree = "<group>";
 		};
 		BA7E654B1AE0C135004495A4 /* Layout */ = {
@@ -177,8 +192,8 @@
 		BA7E654D1AE0C195004495A4 /* Attribute */ = {
 			isa = PBXGroup;
 			children = (
-				BA7E654E1AE0C1BD004495A4 /* FeThirdLayerAttribute.h */,
-				BA7E654F1AE0C1BD004495A4 /* FeThirdLayerAttribute.m */,
+				BA7E65631AE0C5DD004495A4 /* Main */,
+				BA7E65621AE0C5D4004495A4 /* Subview */,
 			);
 			name = Attribute;
 			sourceTree = "<group>";
@@ -190,6 +205,32 @@
 				BA7E655C1AE0C2F1004495A4 /* FeThirdLayerLabel.m */,
 			);
 			name = ThirdLayerLabel;
+			sourceTree = "<group>";
+		};
+		BA7E655E1AE0C3D2004495A4 /* Header file */ = {
+			isa = PBXGroup;
+			children = (
+				BA7E655F1AE0C3E9004495A4 /* FeThirdLayerHeaderFile.h */,
+			);
+			name = "Header file";
+			sourceTree = "<group>";
+		};
+		BA7E65621AE0C5D4004495A4 /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				BA7E654E1AE0C1BD004495A4 /* FeThirdLayerSubviewAttribute.h */,
+				BA7E654F1AE0C1BD004495A4 /* FeThirdLayerSubviewAttribute.m */,
+			);
+			name = Subview;
+			sourceTree = "<group>";
+		};
+		BA7E65631AE0C5DD004495A4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BA7E65641AE0C5ED004495A4 /* FeThirdLayerAttribute.h */,
+				BA7E65651AE0C5ED004495A4 /* FeThirdLayerAttribute.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,10 +336,11 @@
 				BA7E652C1AE0B44E004495A4 /* ViewController.m in Sources */,
 				BA7E655D1AE0C2F1004495A4 /* FeThirdLayerLabel.m in Sources */,
 				BA7E65591AE0C210004495A4 /* FeThirdLayerMenuLayout.m in Sources */,
-				BA7E65501AE0C1BD004495A4 /* FeThirdLayerAttribute.m in Sources */,
+				BA7E65501AE0C1BD004495A4 /* FeThirdLayerSubviewAttribute.m in Sources */,
 				BA7E65531AE0C1D9004495A4 /* FeThirdLayerHeader.m in Sources */,
 				BA7E65291AE0B44E004495A4 /* AppDelegate.m in Sources */,
 				BA7E65561AE0C1EE004495A4 /* UIView+FeThirdLayerAttribute.m in Sources */,
+				BA7E65661AE0C5ED004495A4 /* FeThirdLayerAttribute.m in Sources */,
 				BA7E65261AE0B44E004495A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +463,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/nghiatran/Documents/My Project/FeThirdLayerMenu/FeThirdLayerMenu/PrefixHeader.pch";
 				INFOPLIST_FILE = FeThirdLayerMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,6 +475,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/nghiatran/Documents/My Project/FeThirdLayerMenu/FeThirdLayerMenu/PrefixHeader.pch";
 				INFOPLIST_FILE = FeThirdLayerMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

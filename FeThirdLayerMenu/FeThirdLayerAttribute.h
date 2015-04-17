@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface FeThirdLayerAttribute : NSObject
+
+// Number of layer
+@property (assign, nonatomic, readonly) NSInteger numberOfLayer;
+
+// Base color
+@property (strong, nonatomic) UIColor *baseColor;
+
+// Scheme of color - depend on base color
+@property (strong, nonatomic, readonly) NSArray *schemeColors;
 
 @end

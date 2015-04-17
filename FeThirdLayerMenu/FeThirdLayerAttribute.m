@@ -8,6 +8,33 @@
 
 #import "FeThirdLayerAttribute.h"
 
+@interface FeThirdLayerAttribute ()
+
+// API
+-(void) calculateSchemeColor;
+
+@end
+
 @implementation FeThirdLayerAttribute
 
+-(instancetype) initWithNumberOfLayer:(NSInteger) numberOfLayer baseColor:(UIColor *) baseColor
+{
+    self = [super init];
+    
+    if (self)
+    {
+        _numberOfLayer = numberOfLayer;
+        self.baseColor = baseColor;
+        
+        [self calculateSchemeColor];
+    }
+    
+    return self;
+}
+
+#pragma mark - Private API
+-(void) calculateSchemeColor
+{
+    _schemeColors = [NSArray array];
+}
 @end

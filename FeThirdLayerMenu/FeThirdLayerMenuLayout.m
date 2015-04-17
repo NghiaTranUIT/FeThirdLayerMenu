@@ -10,4 +10,15 @@
 
 @implementation FeThirdLayerMenuLayout
 
+-(instancetype) initWithThirdLayerAttribute:(FeThirdLayerAttribute *)layerAttribute
+{
+    self = [super init];
+    
+    if (self)
+    {
+        
+    }
+    
+    return self;
+}
 @end
