@@ -6,8 +6,12 @@
 //  Copyright (c) 2015 Fe. All rights reserved.
 //
 
-#import "FeThirdLayerHeader.h"
+#import "FeThirdLayerHeaderView.h"
 
-@implementation FeThirdLayerHeader
+@implementation FeThirdLayerHeaderView
 
+-(void) layoutSubviews
+{
+    
+}
 @end

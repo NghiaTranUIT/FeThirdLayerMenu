@@ -37,4 +37,13 @@
 {
     _schemeColors = [NSArray array];
 }
+
+-(UIColor *) colorAtIndex:(NSInteger)index
+{
+    NSAssert(index < 0 || index > self.numberOfLayer, @"ERROR - Out of range of colors");
+    
+    UIColor *color = _schemeColors[index];
+    
+    return color;
+}
 @end

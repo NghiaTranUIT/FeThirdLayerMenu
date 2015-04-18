@@ -20,4 +20,9 @@
 // Scheme of color - depend on base color
 @property (strong, nonatomic, readonly) NSArray *schemeColors;
 
+// INit
+-(instancetype) initWithNumberOfLayer:(NSInteger) numberOfLayer baseColor:(UIColor *) baseColor;
+
+// Color at index
+-(UIColor *) colorAtIndex:(NSInteger) index;
 @end
